@@ -1,0 +1,7 @@
+{
+  "to": "avisihks@gmail.com",
+  "subject": "Welcome Onboard",
+  "text": "Your account has been created, contact support for any queries",
+  "apiUrl":"http://localhost:3000/send-email",
+  "mailHogUrl":"http://localhost:8025/"
+}
