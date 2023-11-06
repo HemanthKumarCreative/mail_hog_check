@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node-app:
+    build: .
+    ports:
+      - "3000:3000" # If your application runs on port 3000, adjust as needed
+  cypress-tests:
+    build: ./cypress
+    depends_on:
+      - node-app
